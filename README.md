@@ -1,11 +1,11 @@
-# React simple text modal
+# React text modal
 
 ## Installation
 You can use this package with `create-react-app`.
-To install the react-simple-text-modal package, use npm (Node Package Manager) by running the following command:
+To install the react-text-modal package, use npm (Node Package Manager) by running the following command:
 
 bash
-### `npm install react-simple-text-modal`
+### `npm install react-text-modal`
 
 
 ## Minimum Node.js Version
@@ -13,7 +13,7 @@ The minimum Node.js version required to use this package is Node.js 10.x or high
 
 
 ## Description
-The React package react-simple-text-modal makes it easy to display modals with simple text in web applications. This library provides a simple interface for displaying a modal with customized content, providing developers with a tool to easily display messages, warnings, or other important information.
+The React package react-text-modal makes it easy to display modals with simple text in web applications. This library provides a simple interface for displaying a modal with customized content, providing developers with a tool to easily display messages, warnings, or other important information.
 
 
 ## Usage
