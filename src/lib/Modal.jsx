@@ -14,7 +14,7 @@ export function Modal({ isOpen, handleClose, children }) {
   };
 
   const modalContainerNone = {
-    display: 'block'
+    display: 'none'
   }
 
   const modalContent = {

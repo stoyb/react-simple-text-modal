@@ -23,7 +23,7 @@ function Modal(_ref) {
     overflow: 'auto'
   };
   const modalContainerNone = {
-    display: 'block'
+    display: 'none'
   };
   const modalContent = {
     position: 'relative',
