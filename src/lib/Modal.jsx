@@ -1,7 +1,8 @@
 import React from 'react';
 
+
 export function Modal({ isOpen, handleClose, children }) {
-  
+
   const modalContainerBlock = {
     display: 'block',
     backgroundColor: 'rgba(0, 0, 0, 0.7)',
@@ -14,7 +15,7 @@ export function Modal({ isOpen, handleClose, children }) {
   };
 
   const modalContainerNone = {
-    display: 'none'
+    display: 'block'
   }
 
   const modalContent = {
@@ -34,9 +35,14 @@ export function Modal({ isOpen, handleClose, children }) {
 
   const modalButton = {
     position:'relative',
-    top: '-32px',
-    left: '362px',
-    fontSize: '42px'
+    top: '-42px',
+    left: '356px',
+    fontSize: '32px',
+    borderRadius:'50px',
+    color:'#FFFFFF',
+    backgroundColor:'#000000',
+    padding:'8px 16px', 
+    border: 'none'
 } 
   
   return (

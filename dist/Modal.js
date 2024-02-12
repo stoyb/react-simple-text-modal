@@ -23,7 +23,7 @@ function Modal(_ref) {
     overflow: 'auto'
   };
   const modalContainerNone = {
-    display: 'none'
+    display: 'block'
   };
   const modalContent = {
     position: 'relative',
@@ -40,9 +40,14 @@ function Modal(_ref) {
   };
   const modalButton = {
     position: 'relative',
-    top: '-32px',
-    left: '362px',
-    fontSize: '42px'
+    top: '-42px',
+    left: '356px',
+    fontSize: '32px',
+    borderRadius: '50px',
+    color: '#FFFFFF',
+    backgroundColor: '#000000',
+    padding: '8px 16px',
+    border: 'none'
   };
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     style: isOpen ? modalContainerBlock : modalContainerNone
